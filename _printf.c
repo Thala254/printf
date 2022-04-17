@@ -17,7 +17,7 @@ flags_p fp[] = {
 {"s", print_str},
 {"%", print_percent}
 };
-while (i < 14)
+while (i < 3)
 {
 if (c == fp[i].c[0])
 {
