@@ -51,7 +51,7 @@ return (-1);
 va_start(ap, format);
 while (format && format[i])
 {
-if (format[i] != %)
+if (format[i] != '%')
 {
 _putchar(format[i]);
 counter++;
@@ -60,9 +60,9 @@ continue;
 }
 else
 {
-if (format[i + 1] == %)
+if (format[i + 1] == '%')
 {
-_putchar(%);
+_putchar('%');
 counter++;
 i += 2;
 continue;
