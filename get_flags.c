@@ -1,4 +1,4 @@
-#include holberton.h
+#include "main.h"
 
 /**
  * get_flags - turns on flags if _printf finds
