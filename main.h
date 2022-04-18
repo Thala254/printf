@@ -2,7 +2,6 @@
 #define _MAIN_H_
 
 #include <stdarg.h>
-
 /**
  * struct print - structure for printing various types
  * @t: type to print
@@ -10,8 +9,8 @@
  */
 typedef struct print
 {
-	char *t;
-	int (*f)(va_list);
+        char *t;
+        int (*f)(va_list);
 } print_t;
 
 int _putchar(char c);
@@ -31,3 +30,4 @@ int print_r(va_list r);
 int print_R(va_list R);
 
 #endif  /* _MAIN_H */
+
