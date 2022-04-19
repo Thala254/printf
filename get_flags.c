@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 int get_flags(char s, mods *f);
 
