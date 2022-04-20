@@ -1,6 +1,6 @@
 # 0x11. C - printf
 
-## An implementation of printf() function in pure C programming language
+An implementation of printf() function in pure C programming language
 
 ## Overview
 
