@@ -4,7 +4,7 @@
 
 **\_printf()** - is ALX school group project. The task is to write a custom version of printf() from standard library.
 
-# Table of contents
+## Table of contents
 
 <!--ts-->
 
