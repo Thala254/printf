@@ -66,8 +66,8 @@ Here are the general requirements:
 ## Format Specifiers
 
 | Function name | Description                                               | Format Specifier |
-| ------------- | --------------------------------------------------------- | ---------------- | --- |
-| `print_c`     | Prints a character                                        | `%c`             |     |
+| ------------- | --------------------------------------------------------- | ---------------- |
+| `print_c`     | Prints a character                                        | `%c`             |
 | `print_i`     | Prints an integer                                         | `%d` & `%i`      |
 | `print_s`     | Prints a string                                           | `%s`             |
 | `print_b`     | Prints a binary, custom specifier                         | `%b`             |
