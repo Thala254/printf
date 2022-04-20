@@ -65,21 +65,20 @@ Here are the general requirements:
 
 ## Format Specifiers
 
-| Function name   | Description                                               | Format Specifier |
-| --------------- | --------------------------------------------------------- | ---------------- |
-| `print_c`       | Prints a character                                        | `%c`             |
-| `print_percent` | Prints a %                                                | `%%`             |
-| `print_i`       | Prints an integer                                         | `%d` & `%i`      |
-| `print_s`       | Prints a string                                           | `%s`             |
-| `print_b`       | Prints a binary, custom specifier                         | `%b`             |
-| `print_o`       | Prints number in base 8                                   | `%o`             |
-| `print_x`       | Prints hexadecimal in lowercase                           | `%x`             |
-| `print_X`       | Prints hexadecimal in uppercase                           | `%X`             |
-| `print_u`       | Prints unsigned integer                                   | `%u`             |
-| `print_S`       | Prints string, prints hex value of non visible characters | `%S`             |
-| `print_P`       | Prints a pointer                                          | `%p`             |
-| `print_r`       | Prints string in reverse, custom specifier                | `%r`             |
-| `print_R`       | Prints string in rot13, custom specifier                  | `%R`             |
+| Function name | Description                                               | Format Specifier |
+| ------------- | --------------------------------------------------------- | ---------------- | --- |
+| `print_c`     | Prints a character                                        | `%c`             |     |
+| `print_i`     | Prints an integer                                         | `%d` & `%i`      |
+| `print_s`     | Prints a string                                           | `%s`             |
+| `print_b`     | Prints a binary, custom specifier                         | `%b`             |
+| `print_o`     | Prints number in base 8                                   | `%o`             |
+| `print_x`     | Prints hexadecimal in lowercase                           | `%x`             |
+| `print_X`     | Prints hexadecimal in uppercase                           | `%X`             |
+| `print_u`     | Prints unsigned integer                                   | `%u`             |
+| `print_S`     | Prints string, prints hex value of non visible characters | `%S`             |
+| `print_P`     | Prints a pointer                                          | `%p`             |
+| `print_r`     | Prints string in reverse, custom specifier                | `%r`             |
+| `print_R`     | Prints string in rot13, custom specifier                  | `%R`             |
 
 ---
 
