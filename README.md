@@ -155,7 +155,7 @@ gcc your_C_source_code -L. -lprintf
 yobra@YOBRA:~/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - Entry point
