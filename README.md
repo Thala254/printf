@@ -90,26 +90,56 @@ Here are the general requirements:
 <summary>
 Click here to expand
 </summary>
-<ol>
 
-<li><strong>I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life</strong> <i>mandatory</i>
-</li><li><strong>Education is when you read the fine print. Experience is what you get if you don't </strong> <i>mandatory</i>
-</li><li><strong>Just because it's in print doesn't mean it's the gospel </strong> <i>mandatory</i>
-</li><li><strong>With a face like mine, I do better in print</strong> <i>#advanced</i>
-</li><li><strong>What one has not experienced, one will never understand in print</strong> <i>#advanced</i>
-</li><li><strong>Nothing in fine print is ever good news</strong> <i>#advanced</i>
-</li><li><strong>My weakness is wearing too much leopard print</strong> <i>#advanced</i>
-</li><li><strong>How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print</strong> <i>#advanced</i>
-</li><li><strong>The big print gives and the small print takes away</strong> <i>#advanced</i>
-</li><li><strong>Sarcasm is lost in print</strong> <i>#advanced</i>
-</li><li><strong> Print some money and give it to us for the rain forests</strong> <i>#advanced</i>
-</li><li><strong> The negative is the equivalent of the composer's score, and the print the performance</strong> <i>#advanced</i>
-</li><li><strong> It's depressing when you're still around and your albums are out of print</strong> <i>#advanced</i>
-</li><li><strong> Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection</strong> <i>#advanced</i>
-</li><li><strong> Print is the sharpest and the strongest weapon of our party</strong> <i>#advanced</i>
-</li><li><strong> The flood of print has turned reading into a process of gulping rather than savoring</strong> <i>#advanced</i>
-</li><li><strong> All of the above functionality should work flawlessly</strong> <i>#advanced</i>
-</ol>
+### 0.I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+
+Write a function that produces output according to a format.
+
+- Prototype: int \_printf(const char \*format, ...);
+- Returns: the number of characters printed (excluding the null byte used to end output to - strings)
+- write output to stdout, the standard output stream
+- format is a character string. The format string is composed of zero or more directives. See man 3 printf for more detail. You need to handle the following conversion specifiers:
+  c
+  s
+  %
+- You don’t have to reproduce the buffer handling of the C library printf function
+- You don’t have to handle the flag characters
+- You don’t have to handle field width
+- You don’t have to handle precision
+- You don’t have to handle the length modifiers
+
+### 1.Education is when you read the fine print. Experience is what you get if you don't
+
+### 2.Just because it's in print doesn't mean it's the gospel
+
+### 3.With a face like mine, I do better in print
+
+### 4.What one has not experienced, one will never understand in print
+
+### 5.Nothing in fine print is ever good news
+
+### 6.My weakness is wearing too much leopard print
+
+### 7.How is the world ruled and led to war? Diplomats lie to journalists and believe these lies when they see them in print
+
+### 8.The big print gives and the small print takes away
+
+### 9.Sarcasm is lost in print
+
+### 10.Print some money and give it to us for the rain forests
+
+### 11.The negative is the equivalent of the composer's score, and the print the performance
+
+### 12.It's depressing when you're still around and your albums are out of print
+
+### 13.Every time that I wanted to give up, if I saw an interesting textile, print what ever, suddenly I would see a collection
+
+### 14.Print is the sharpest and the strongest weapon of our party
+
+### 15.The flood of print has turned reading into a process of gulping rather than savoring
+
+### 16.All of the above functionality should work flawlessly
+
 </details>
 
 ## Installation
