@@ -27,7 +27,7 @@
 Here are the general requirements:
 
 - Allowed editors: vi, vim, emacs
-- All your files will be compiled on Ubuntu 20.04 LTS using gcc 4.8.4 with the flags **-Wall -Werror -Wextra** and **-pedantic**
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc with the flags **-Wall -Werror -Wextra** and **-pedantic**
 - All your files should end with a new line
 - _A README.md_ file, at the root of the folder of the project is mandatory
   Your code should use the Betty style. It will be checked using [betty-style.pl] and [betty-doc.pl]
